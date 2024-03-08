@@ -1,16 +1,14 @@
-programa { /*Escreva um programa que leia a renda mensal de
-um solicitante, o valor total do empréstimo solicitado e o número de prestações que o solicitante
-deseja pagar e informe se o empréstimo pode ou não ser concedido.*/
+programa { 
   funcao inicio() {
     // Variaveis 
     real rendaMensal, valorEmprestimo, prestacoes
 
-    // Solicitações
+    // SolicitaÃ§Ãµes
     escreva("Informe sua renda mensal: ")
     leia(rendaMensal)
     escreva("Informe o valor de emprestimo desejado: ")
     leia(valorEmprestimo)
-    escreva("Informe a quantidade de prestações: ")
+    escreva("Informe a quantidade de prestaÃ§Ãµes: ")
     leia(prestacoes)
 
     // Calculos
@@ -20,7 +18,7 @@ deseja pagar e informe se o empréstimo pode ou não ser concedido.*/
     se (valorEmprestimo < (rendaMensal * 10) e valorPrestacao < (rendaMensal * 0.3)) {
       escreva("\nO emprestimo foi concedido!")
     } senao {
-      escreva("\nO emprestimo não pode ser concedido!")
+      escreva("\nO emprestimo nÃ£o pode ser concedido!")
     }
 
   }
