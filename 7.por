@@ -4,12 +4,12 @@ programa {
     cadeia nome 
     real quantidade, preco, custo, desconto, totalPagar
 
-    // Solicitação
+    // SolicitaÃ§Ã£o
     escreva("Digite o nome do produto: ")
     leia(nome)
     escreva("Digite a quantidade adquirida do produto: ")
     leia(quantidade)
-    escreva("Digite o preço do produto: ")
+    escreva("Digite o preÃ§o do produto: ")
     leia(preco)
 
     // Calculos
@@ -23,7 +23,7 @@ programa {
       desconto = custo * 0.03
     }
     se (quantidade > 10) {
-      desconto  = custo * 0.5
+      desconto  = custo * 0.05
     }
     totalPagar = custo - desconto
 
