@@ -4,20 +4,20 @@ programa {
     real kiloMaca, kiloMorango, precoMaca, precoMorango, pagarMaca, pagarMorango
     real kiloTotal, custo, desconto, totalPagar
 
-    // Solicitação
-    escreva("Digite a quantidade em kgs de maças que você comprou: ")
+    // SolicitaÃ§Ã£o
+    escreva("Digite a quantidade em kgs de maÃ§as que vocÃª comprou: ")
     leia(kiloMaca)    
-    escreva("Digite a quantidade em kgs de morangos que você comprou: ")
+    escreva("Digite a quantidade em kgs de morangos que vocÃª comprou: ")
     leia(kiloMorango)
 
     // Condicional
-    se (kiloMaca < 5) {
+    se (kiloMaca <= 5) {
       precoMaca = 2.50
     } senao {
       precoMaca = 2.20
     }
 
-    se (kiloMorango < 5) {
+    se (kiloMorango <= 5) {
       precoMorango = 1.80
     } senao {
       precoMorango = 1.50
@@ -34,13 +34,13 @@ programa {
     
     // Exibindo resultados
     limpa()
-    escreva("Voce comprou ", kiloMaca, " Kgs de maças")
+    escreva("Voce comprou ", kiloMaca, " Kgs de maÃ§as")
     escreva("\nVoce comprou ", kiloMorango, " Kgs de morangos")
      se (kiloTotal > 8 ou custo > 25.00) {
     totalPagar = (custo - desconto)
     } senao {
       totalPagar = custo
     }
-    escreva("\nO valor a ser pago é: R$", totalPagar)    
+    escreva("\nO valor a ser pago Ã©: R$", totalPagar)    
   }
 }
