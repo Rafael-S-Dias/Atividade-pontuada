@@ -6,7 +6,7 @@ programa {
     real letraC
 
 
-    // Solicitação
+    // SolicitaÃ§Ã£o
     escreva("Digite o valor da letra A: ")
     leia(letraA)
 
@@ -21,9 +21,9 @@ programa {
     // Condicional
     real soma = letraA + letraB
     se (soma < letraC) {
-      escreva("A soma de A + B é menor que o valor de C")
+      escreva("A soma de A + B Ã© menor que o valor de C")
     } senao { 
-      escreva("A soma de A + B é maior que o valor de C")
+      escreva("A soma de A + B Ã© maior que o valor de C")
 
     }
   }
