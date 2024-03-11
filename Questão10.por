@@ -6,7 +6,7 @@ programa {
     real precoAlcool = 3.79
     real precoGasolina = 6.59
 
-   // Solicitação
+   // SolicitaÃ§Ã£o
     escreva("Selecione o tipo de combustivel desejado. A para alcool e G para gasolina: ")
     leia(tipoCombustivel)
     escreva("Selecione a quantidades em litros desejada: ")
@@ -36,7 +36,7 @@ programa {
 
    
     // Resultados
-    escreva("\nO valor a ser pago é: R$", totalPagar)
+    escreva("\nO valor a ser pago Ã©: R$", totalPagar)
 
   }
 }
