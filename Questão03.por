@@ -4,7 +4,7 @@ programa {
     inteiro valorA, valorB
     real valorC
 
-    // Solicitação
+    // SolicitaÃ§Ã£o
     escreva("Digite o valor de A: ")
     leia(valorA)
 
@@ -20,8 +20,8 @@ programa {
     
     // Exibindo resultados
     limpa()
-    escreva("O valor de A é: ", valorA)
-    escreva("\nO valor de B é: ", valorB)
-    escreva("\nO valor de C é: ", valorC)    
+    escreva("O valor de A Ã©: ", valorA)
+    escreva("\nO valor de B Ã©: ", valorB)
+    escreva("\nO valor de C Ã©: ", valorC)    
   }
 }
