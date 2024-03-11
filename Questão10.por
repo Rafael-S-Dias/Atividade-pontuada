@@ -1,6 +1,7 @@
 programa {
+  inclua biblioteca Matematica --> mat
   funcao inicio() {
-    // Varaiveis
+    // Variaveis
     real quantidadeCombustivel, totalPagar, desconto
     caracter tipoCombustivel
     real precoAlcool = 3.79
@@ -16,24 +17,26 @@ programa {
     escolha(tipoCombustivel) {
       caso "A" :
         se (quantidadeCombustivel <= 25) {
-          desconto = quantidadeCombustivel * 0.02
+          desconto = precoAlcool * 0.02
         } se (quantidadeCombustivel > 25) {
-          desconto = quantidadeCombustivel * 0.04
+          desconto = precoAlcool * 0.04
         }
 
-        totalPagar = (precoAlcool * quantidadeCombustivel) - desconto
+        totalPagar = quantidadeCombustivel * (precoAlcool - desconto)
         pare
     caso "G" : 
         se (quantidadeCombustivel <= 25) {
-          desconto = quantidadeCombustivel * 0.03
+          desconto = precoGasolina * 0.03
         } se (quantidadeCombustivel > 25) {
-          desconto = quantidadeCombustivel * 0.05
+          desconto = precoGasolina * 0.05
         }
 
-        totalPagar = (precoGasolina * quantidadeCombustivel) - desconto
+        totalPagar = quantidadeCombustivel * (precoGasolina - desconto)
         pare
     }
-
+    
+    // Arrendondamento
+    totalPagar = mat.arredondar(totalPagar, 2)
    
     // Resultados
     escreva("\nO valor a ser pago é: R$", totalPagar)
