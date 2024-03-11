@@ -4,30 +4,30 @@ programa {
     inteiro valorA, valorB
     cadeia operacao
 
-    // SolicitaÁ„o
+    // Solicita√ß√£o
     escreva("Digite o valor desejado para A: ")
     leia(valorA)
     escreva("Digite o valor desejado para B: ")
     leia(valorB)    
-    escreva("Digite a operaÁ„o desejada: ")
+    escreva("Digite a opera√ß√£o desejada: ")
     leia(operacao)
 
     // Switch Case
     escolha(operacao) {
       caso "+" :
-        escreva("O resultado È: ",valorA + valorB)
+        escreva("O resultado √©: ",valorA + valorB)
       pare
       caso "-" :
-        escreva("O resultado È: ",valorA - valorB)
+        escreva("O resultado √©: ",valorA - valorB)
       pare    
       caso "*" :
-        escreva("O resultado È: ",valorA * valorB)
+        escreva("O resultado √©: ",valorA * valorB)
       pare
       caso "/" :
-        escreva("O resultado È: ",valorA / valorB)
+        escreva("O resultado √©: ",valorA / valorB)
       pare 
       caso contrario :
-        escreva("\nOpÁ„o Inv·lida!")    
+        escreva("\nOp√ß√£o Inv√°lida!")    
     } 
   }
 }
