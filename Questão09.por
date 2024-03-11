@@ -15,7 +15,7 @@ programa {
     real valorPrestacao = (valorEmprestimo / prestacoes)
 
     // Resultados
-    se (valorEmprestimo < (rendaMensal * 10) e valorPrestacao < (rendaMensal * 0.3)) {
+    se (valorEmprestimo <= (rendaMensal * 10) e valorPrestacao <= (rendaMensal * 0.3)) {
       escreva("\nO emprestimo foi concedido!")
     } senao {
       escreva("\nO emprestimo não pode ser concedido!")
