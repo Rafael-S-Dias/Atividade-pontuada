@@ -10,18 +10,18 @@ programa {
     escreva("Digite sua segunda nota: ")
     leia(segundaNota)
 
-    // Calcular a média aritmética.
+    // Calcular a mÃ©dia aritmÃ©tica.
     media = (primeiraNota + segundaNota) / 2
 
     // Exibindo resultados.
     limpa()
     escreva("Sua media foi de: ",media)
     se (media >= 6) {
-      escreva("\nParabéns! Você foi aprovado! A nota de corte era 6,00")
+      escreva("\nParabÃ©ns! VocÃª foi aprovado! A nota de corte era 6,00")
     } se (media >= 4 e media < 6) {
-      escreva("\nInfelizmente você está de recuperação. A nota de corte era 6,00")}
+      escreva("\nInfelizmente vocÃª estÃ¡ de recuperaÃ§Ã£o. A nota de corte era 6,00")}
     se (media < 4) {
-      escreva("\nInfelizmente voce foi reprovado! sua media foi infeior á 4,00")
+      escreva("\nInfelizmente voce foi reprovado! sua media foi infeior Ã¡ 4,00")
     }
   }
 }
