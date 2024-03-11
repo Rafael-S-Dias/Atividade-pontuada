@@ -4,7 +4,7 @@ programa {
     cadeia nome, estadoCivil, sexo
     real tempoCasada
 
-    // Solicitação
+    // SolicitaÃ§Ã£o
     escreva("Digite seu nome: ")
     leia(nome)
     escreva("Informe seu sexo, utilizando M ou F: ")
@@ -20,7 +20,7 @@ programa {
 
     // Exibindo resultados
     limpa()
-    escreva("Seu nome é: ", nome)
+    escreva("Seu nome Ã©: ", nome)
     escreva("\nSexo: ", sexo)
     escreva("\nEstado civil: ",estadoCivil)
       se (sexo == "F" e estadoCivil == "casada") {
